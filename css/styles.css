@@ -15,7 +15,65 @@ body {
 .address {
   font-style: normal;
 }
-/* =========HEADER================ */
+/* ======COMPONENTS======= */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.title-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.suptitle-light-theme {
+  color: #000000;
+}
+.suptitle-dark-theme {
+  color: #ffffff;
+}
+/* =====END COMPONENTS===== */
+/* =========SITE-NAV================ */
 .logotype {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -23,11 +81,11 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .logo-item {
   color: var(--accent-color);
 }
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -39,6 +97,9 @@ body {
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-color);
+}
+.navigation-list .current {
+  color: #2196f3;
 }
 .contacts-link {
   font-weight: 500;
@@ -52,7 +113,7 @@ body {
 .contacts-link:focus {
   color: var(--accent-color);
 }
-/* =====END HEADER====== */
+/* =====END SITE-NAV====== */
 /* ==========HERO============ */
 .hero-title {
   font-weight: 900;
