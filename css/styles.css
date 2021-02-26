@@ -5,6 +5,7 @@
 }
 body {
   font-family: var(--main-font);
+  color: #212121;
 }
 .link {
   text-decoration: none;
@@ -22,8 +23,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 .description {
   font-weight: 400;
@@ -41,8 +40,6 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .title-names {
   font-weight: 500;
@@ -52,8 +49,6 @@ body {
 
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .subtitle {
   font-weight: 400;
@@ -99,7 +94,7 @@ body {
   color: var(--accent-color);
 }
 .navigation-list .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts-link {
   font-weight: 500;
@@ -142,3 +137,60 @@ body {
   cursor: pointer;
 }
 /* ====END HERO===== */
+/* ======ПОДВАЛ===== */
+.address-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: #FFFFFF; */
+}
+.contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+/* ====== END ПОДВАЛ */
+/* ========PORTFOLIO.CSS======= */
+.modal-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.modal-button:hover,
+.modal-button:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+  cursor: pointer;
+}
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.works-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
